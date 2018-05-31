@@ -1,5 +1,19 @@
 # CraftBoard README
 
+## OBS integration
+
+If you are recording a monitor then you don't have to change anything as everything on this monitor is getting recorded including the scoreboard.
+
+If you are recording a window/game or only want to show the scorebord on your stream but not on your actual monitor follow the following steps to integrate it into your scene.
+
+1. In CraftBoard go to: Settings->Advanced in the top right select Style = Image
+2. Click Save
+3. In OBS right click in your scene and select add image.
+4. Browse to the CraftBoard/Image directory and select the *_overlay.png file
+5. In your OBS scene right click on the added image and go to preferences/settings of this image
+6. Select the checkmark box "Check for updates" or similar
+7. Click OK and it should work
+
 ## Control panel:
 The control panel should be fairly intuitive.
 
